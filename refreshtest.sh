@@ -6,7 +6,11 @@
 # | |_| | |   \   
 # |_____| |_|\_\  
 
-# test script for learning purposes changes often and should be discarded, not run
+# Resfresh script updated to working order
+
+# change this wget link to something else if you wish to have your custom scripts auto pulled and saved properly
+# to do so change the link and all references to the file name to proper name.file format and have this and the ->
+# file you want to update in the same directory
 
 wget https://raw.githubusercontent.com/C-Keenan/bashscripts/main/test.sh
 cp test.sh.1 test.sh
