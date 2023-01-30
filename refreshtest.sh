@@ -8,6 +8,7 @@
 
 # test script for learning purposes changes often and should be discarded, not run
 
+wget https://raw.githubusercontent.com/C-Keenan/bashscripts/main/refreshtest.sh
 cp test.sh.1 test.sh
 cat test.sh
 sleep 20
