@@ -8,6 +8,12 @@
 
 # test script for learning purposes changes often and should be discarded, not run
 
-dcstart="docker-compose up -d"
-dcstop="docker-compose down"
-dcrestart="docker-compose down && docker-compose up -d"
+# dcstart="docker-compose up -d"
+# dcstop="docker-compose down"
+# dcrestart="docker-compose down && docker-compose up -d"
+
+home="~"
+root="/"
+options=$(cd ${home} && /bin/ls -d */ | cut -d " " -f 1 )
+
+echo ${options}
