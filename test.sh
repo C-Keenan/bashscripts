@@ -6,14 +6,13 @@
 # | |_| | |   \   
 # |_____| |_|\_\  
 
-# test script for learning purposes changes often and should be discarded, not run
+# test script for learning purposes changes often and should be discarded if downloaded, not run
 
-# dcstart="docker-compose up -d"
-# dcstop="docker-compose down"
-# dcrestart="docker-compose down && docker-compose up -d"
-
+dcstart="docker-compose up -d"
+dcstop="docker-compose down"
+dcrestart="docker-compose down && docker-compose up -d"
 home="/home/cameron/"
 root="/"
-options=$(cd ${home} && /bin/ls -d */ | cut -d " " -f 1 )
-
-echo ${options}
+lanc="/mnt/lancache/lancache"
+docker="/home/cameron/docker"
+libspd="/home/cameron/docker/librespeedtest"
