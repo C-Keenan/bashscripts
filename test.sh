@@ -12,7 +12,7 @@
 # dcstop="docker-compose down"
 # dcrestart="docker-compose down && docker-compose up -d"
 
-home="~"
+home="/home/cameron/"
 root="/"
 options=$(cd ${home} && /bin/ls -d */ | cut -d " " -f 1 )
 
