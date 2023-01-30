@@ -6,7 +6,8 @@
 # | |_| | |   \   
 # |_____| |_|\_\  
 
-# test script for learning purposes
+# test script for learning purposes changes often and should be discarded, not run
 
-ls
-
+dcstart="docker-compose up -d"
+dcstop="docker-compose down"
+dcrestart="docker-compose down && docker-compose up -d"
