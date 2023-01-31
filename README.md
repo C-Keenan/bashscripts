@@ -11,3 +11,6 @@ test.sh
 
 Currently only has some variables defined and nothing more so shouldn't do anything but
 is the testbed for any scripts I am working on so run at YOUR OWN risk.
+
+## IMPORTANT ##
+If you have found a bug or vulnerability please follow the instructions mentioned in the "SECURITY.md" file
