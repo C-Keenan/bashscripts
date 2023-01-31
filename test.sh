@@ -27,8 +27,8 @@ echo "Some commands in this script will need sudo elevation. Please provide 'sud
 echo ""
 echo ""
 cd $home
+$iscsidsc
+$iscsimnt
 cd $lanc
-$dcstop
+$dcstart
 cd $home
-$iscsidmnt
-$iscsilogout
