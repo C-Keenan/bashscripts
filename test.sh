@@ -32,5 +32,9 @@ sleep 10
 $iscsimnt
 sleep 10
 cd $lanc
+sleep 10
+ls
+sleep 10
 $dcstart
+sleep 10
 cd $home
